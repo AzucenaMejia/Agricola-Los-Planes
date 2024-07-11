@@ -50,15 +50,16 @@ body {
 }
 
 .lista-contacto a {
-    display:flex; /* Mostrar como flexbox */
+    display:inline-flexbox; /* Mostrar como flexbox */
     text-decoration: none; /* Quitar subrayado del enlace */
     color: #f8f5f5;
     padding: 10px; 
-    margin-right: 20px; /* Espacio entre elementos */
+    margin-right: 10px; /* Espacio entre elementos */
 }
 
 
 .lista-contacto img {
+    
     width: 20px; 
     margin-right: 10px; 
 }
