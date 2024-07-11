@@ -1,8 +1,36 @@
+/*Body*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+/* Estilos generales */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
+
 
 
 /*contenedor de contacto parte superior*/
@@ -22,7 +50,7 @@ body {
 }
 
 .lista-contacto a {
-    display:inline-block; /* Mostrar como flexbox */
+    display:flex; /* Mostrar como flexbox */
     text-decoration: none; /* Quitar subrayado del enlace */
     color: #f8f5f5;
     padding: 10px; 
@@ -34,6 +62,7 @@ body {
     width: 20px; 
     margin-right: 10px; 
 }
+
 
 /* Menu */
 
@@ -81,6 +110,8 @@ ul li a {
 
 
 
+
+
 /*banner */
 
 .banner {
@@ -95,11 +126,6 @@ ul li a {
     display: block; /* Para asegurar que la imagen tenga el ancho completo */
 }
 
-@media (max-width: 768px) {
-    .contenido {
-        width: 80%;
-    }
-}
 
 
 
