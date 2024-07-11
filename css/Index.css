@@ -4,27 +4,13 @@ body {
     margin: 0;
     padding: 0;
 }
-/* Estilos generales */
-body {
-    font-size: 16px;
-    line-height: 1.5;
-}
 
-/* Estilos para pantallas grandes */
-@media screen and (min-width: 1024px) {
-    body {
-        font-size: 18px;
-    }
-}
-
-/* Estilos para pantallas medianas */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     body {
         font-size: 16px;
     }
 }
 
-/* Estilos para pantallas pequeñas (móviles) */
 @media screen and (max-width: 767px) {
     body {
         font-size: 14px;
@@ -128,6 +114,27 @@ ul li a {
 }
 
 
+/*contenido de sobre nosotros*/
+
+.contenido {
+    display: flex; /* Mostrar como flexbox */
+    align-items: center; /* Alinear elementos verticalmente al centro */
+}
+.contenido h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    margin: 10%; /* Quitar márgenes del párrafo */
+}
+
+.contenido img {
+    width: 20%;
+    height:20%;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
 
 
 
