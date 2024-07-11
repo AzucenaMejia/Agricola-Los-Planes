@@ -4,6 +4,114 @@ body {
     padding: 0;
 }
 
+
+/*contenedor de contacto parte superior*/
+
+.contenedor-de-contacto {
+    background-color: #1A9E06;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.lista-contacto {
+    align-items: center; /* Alinear verticalmente al centro */
+    list-style-type:none; /* Quitar viñetas de la lista */
+    padding: 0%; 
+
+
+}
+
+.lista-contacto a {
+    display:inline-block; /* Mostrar como flexbox */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #f8f5f5;
+    padding: 10px; 
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+
+.lista-contacto img {
+    width: 20px; 
+    margin-right: 10px; 
+}
+
+/* Menu */
+
+.menu {
+    display: flex; /* Mostrar como flexbox */
+    align-items: center; /* Alinear elementos verticalmente al centro */
+    justify-content: space-between; /* Distribuir elementos horizontalmente */
+    background-color: #f0f0f0; /* Color de fondo del menú */
+    padding: 10px; /* Espacio interno */
+}
+
+.logo {
+    flex: 1; /* Ocupar el espacio necesario */
+}
+
+ul {
+    flex: 1; /* Ocupar el espacio necesario */
+    display: flex; /* Mostrar como flexbox */
+    justify-content: center; /* Centrar elementos horizontalmente */
+    list-style-type: none; /* Quitar viñetas de la lista */
+    margin: 0; /* Quitar márgenes */
+    padding: 0; /* Quitar relleno */
+}
+
+ul li {
+    margin: 0 10px; /* Espacio entre elementos */
+}
+
+ul li a {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #333; /* Color del texto */
+    padding: 10px; /* Espacio interno */
+}
+
+.social-links {
+    flex: 1; /* Ocupar el espacio necesario */
+    text-align: right; /* Alinear texto a la derecha */
+}
+
+.social-links a {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #333; /* Color del texto */
+    margin-left: 10px; /* Espacio entre elementos */
+}
+
+
+
+/*banner */
+
+.banner {
+    position: relative;
+    max-width: 100%; /* Ancho máximo del banner */
+    overflow: hidden; /* Oculta el contenido que se desborda */
+}
+
+.banner img {
+    width: 100%; /* La imagen ocupa el ancho completo del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Para asegurar que la imagen tenga el ancho completo */
+}
+
+@media (max-width: 768px) {
+    .contenido {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 header {
     background-color: #333;
     color: #fff;
@@ -27,16 +135,7 @@ nav ul li {
     margin-right: 20px;
 }
 
-.contact-info {
-    background-color: #f0f8f2;
-    padding: 10px;
-}
 
-.contact-list {
-    list-style-type: none;
-    color: green;
-    padding-left: 0;
-}
 
 .social-links {
     text-align: center;
